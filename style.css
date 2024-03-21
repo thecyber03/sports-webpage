@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logonav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logonav h2{
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.logonav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 100px;
+    outline: none;
+}
+.logonav ul li:hover{
+    color: black;
+    opacity: 1;
+}
+
+.searchnav input{
+    margin-right: 30px;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border: solid 1px white;
+    border-radius: 100px;
+    color: black;
+    padding-left: 20px;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+.dp{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background-image: url(dp.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  position: absolute;
+  left: 95%;
+  top: 10px;
+}
+
+
+.heading{
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY( -50% );
+    left: 100px;
+}
+
+.heading h1{
+    font-size: 1500%;
+    font-family: 'Protest Revolution', sans-serif;
+    
+}
+.heading button{
+    width: 190px;
+    height: 40px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 100px;
+}
